@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My home RWD</title>
+        <style type ="text/css">
+        nav{
+            display: flex;
+            justify-content: flex-end;
+            text-align:start;
+            align-items: center;
+            font-size: 20px;
+            height:40px;
+        }
+        nav>.title{
+            flex:auto;
+            font-weight: bold;
+        }
+        nav>.item{
+            flex: none;
+            width:65px;
+            text-align: center;
+        }
+        .outter{
+            background-color: rgb(118, 184, 196);
+            display:flex;
+            height:300px;
+            align-items: center;            
+            justify-content: center;        
+        }
+        .inner{
+            color: white;
+            font-size: 40px;
+        }
+        .up>.P1{
+            display:flex; flex-wrap:wrap;
+            margin:0px;
+            /* background-color: violet; */
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .up>.P1>.cube{
+            flex:none; 
+            width:280px;
+            height:220px;
+            background-color: rgb(238, 178, 88);
+            margin:10px;
+        }
+       
+        .down>.P2{
+            display:flex; flex-wrap:wrap;
+            margin: 0px;
+            /* background-color: violet; */
+            justify-content: center;
+        }
+        .down>.P2>.cube{
+            flex:none;
+            width:280px;
+            height:220px;
+            background-color:rgb(238, 178, 88);
+            margin:10px;
+        }
+        .box{
+            display:flex;
+            width:auto;
+            height:30px;
+            /* background-color: teal; */
+            align-items:center;
+            justify-content: center;
+        }
+        content>.up>.P1>.cube>img{
+            width:100%;
+            height:180px;
+        }
+        content>.down>.P2>.cube>img{
+            width:100%;
+            height:180px;
+        }
+        /* @media (max-width:1217px){
+            .up>.P1>.cube{
+                width:45%;
+            }
+            .down>.P2>.cube{
+                width:45%;
+            }
+        } */
+        @media (max-width:1200px){
+            .up>.P1>.cube{
+                width:45%;
+            }
+            .down>.P2>.cube{
+                width:45%;
+            }
+        }
+        @media(max-width:600px){
+            .up>.P1>.cube{
+                width:90%;
+            }
+            .down>.P2>.cube{
+                width:90%;
+            }
+            nav>.item{
+                color:white;
+            }
+            nav>.bar>.line{
+                width:35px;
+                height:5px;
+                background-color:black;
+                margin: 3px 0;
+                margin-right: 20px;
+            }
+        }
+        </style>
+    </head>
+    <body style="margin:0px;">
+        <nav>
+            <div class="title">My Website</div>
+            <div class="item">Item1</div>
+            <div class="item">Item2</div>
+            <div class="item">Item3</div>
+            <div class="item">Item4</div>
+            <div class="bar">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <div class="outter">
+            <div class="inner">Welcome to Yan's Home</div>
+        </div>
+        <content>
+        <div class="up">
+            <div class="P1">
+                <div class="cube">
+                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                    <div class="box">
+                        <div class="title">Title1</div>
+                    </div>
+                </div>
+                <div class="cube">
+                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                    <div class="box">
+                        <div class="title">Title2</div>
+                    </div>
+                </div>
+                <div class="cube">
+                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                    <div class="box">
+                        <div class="title">Title3</div>
+                    </div>
+                </div>
+                <div class="cube">
+                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                    <div class="box">
+                        <div class="title">Title4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="down">
+            <div class="P2">
+                <div class="cube">
+                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                    <div class="box">
+                        <div class="title">Title5</div>
+                    </div>
+                </div>
+                <div class="cube">
+                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                    <div class="box">
+                        <div class="title">Title6</div>
+                    </div>
+                </div>
+                <div class="cube">
+                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                    <div class="box">
+                        <div class="title">Title7</div>
+                    </div>
+                </div>
+                <div class="cube">
+                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                    <div class="box">
+                        <div class="title">Title8</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </content>
+    </body>
+</html>
