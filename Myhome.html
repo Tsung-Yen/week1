@@ -35,14 +35,14 @@
             color: white;
             font-size: 40px;
         }
-        .up>.P1{
+        .up{
             display:flex; flex-wrap:wrap;
             margin:0px;
             /* background-color: violet; */
-            justify-content: center;
+            justify-content:center;
             margin-top: 20px;
         }
-        .up>.P1>.cube{
+        .up>.cube{
             flex:none; 
             width:280px;
             height:220px;
@@ -50,13 +50,13 @@
             margin:10px;
         }
        
-        .down>.P2{
+        .down{
             display:flex; flex-wrap:wrap;
             margin: 0px;
             /* background-color: violet; */
             justify-content: center;
         }
-        .down>.P2>.cube{
+        .down>.cube{
             flex:none;
             width:280px;
             height:220px;
@@ -65,18 +65,18 @@
         }
         .box{
             display:flex;
-            width:auto;
+            width:280px;
             height:30px;
-            /* background-color: teal; */
+            background-color: teal;
             align-items:center;
             justify-content: center;
         }
-        content>.up>.P1>.cube>img{
-            width:100%;
+        content>.up>.cube>img{
+            width:280px;
             height:180px;
         }
-        content>.down>.P2>.cube>img{
-            width:100%;
+        content>.down>.cube>img{
+            width:280px;
             height:180px;
         }
         /* @media (max-width:1217px){
@@ -88,18 +88,18 @@
             }
         } */
         @media (max-width:1200px){
-            .up>.P1>.cube{
+            .up{
                 width:45%;
             }
-            .down>.P2>.cube{
+            .down{
                 width:45%;
             }
         }
         @media(max-width:600px){
-            .up>.P1>.cube{
+            .up{
                 width:90%;
             }
-            .down>.P2>.cube{
+            .down{
                 width:90%;
             }
             nav>.item{
@@ -133,58 +133,56 @@
         </div>
         <content>
         <div class="up">
-            <div class="P1">
-                <div class="cube">
-                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
-                    <div class="box">
-                        <div class="title">Title1</div>
-                    </div>
-                </div>
-                <div class="cube">
-                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
-                    <div class="box">
-                        <div class="title">Title2</div>
-                    </div>
-                </div>
-                <div class="cube">
-                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
-                    <div class="box">
-                        <div class="title">Title3</div>
-                    </div>
-                </div>
-                <div class="cube">
-                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
-                    <div class="box">
-                        <div class="title">Title4</div>
-                    </div>
+            
+            <div class="cube">
+                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                <div class="box">
+                    <div class="title">Title3</div>
                 </div>
             </div>
+            <div class="cube">
+                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                <div class="box">
+                    <div class="title">Title3</div>
+                </div>
+            </div>
+            <div class="cube">
+                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                <div class="box">
+                    <div class="title">Title3</div>
+                </div>
+            </div>
+            <div class="cube">
+                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                <div class="box">
+                    <div class="title">Title4</div>
+                </div>
+            </div>
+            
         </div>
         <div class="down">
-            <div class="P2">
-                <div class="cube">
-                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
-                    <div class="box">
-                        <div class="title">Title5</div>
-                    </div>
+            <div class="cube">
+                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                <div class="box">
+                    <div class="title">Title3</div>
                 </div>
-                <div class="cube">
-                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
-                    <div class="box">
-                        <div class="title">Title6</div>
-                    </div>
+            </div>
+            <div class="cube">
+                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                <div class="box">
+                    <div class="title">Title3</div>
                 </div>
-                <div class="cube">
-                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
-                    <div class="box">
-                        <div class="title">Title7</div>
-                    </div>
+            </div>
+            <div class="cube">
+                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                <div class="box">
+                    <div class="title">Title3</div>
                 </div>
-                <div class="cube">
-                    <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
-                    <div class="box">
-                        <div class="title">Title8</div>
-                    </div>
+            </div>
+            <div class="cube">
+                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+                <div class="box">
+                    <div class="title">Title4</div>
                 </div>
             </div>
         </div>
