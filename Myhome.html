@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My home RWD</title>
         <style type ="text/css">
         nav{
@@ -35,73 +36,51 @@
             color: white;
             font-size: 40px;
         }
-        .up{
-            display:flex; flex-wrap:wrap;
-            margin:0px;
-            /* background-color: violet; */
-            justify-content:center;
-            margin-top: 20px;
-        }
-        .up>.cube{
-            flex:none; 
-            width:280px;
-            height:220px;
-            background-color: rgb(238, 178, 88);
-            margin:10px;
-        }
-       
-        .down{
-            display:flex; flex-wrap:wrap;
-            margin: 0px;
-            /* background-color: violet; */
+        /* content{
+            text-align: center;
+        }         */
+         .up{
+            display:flex; flex-wrap: wrap;
             justify-content: center;
-        }
-        .down>.cube{
-            flex:none;
-            width:280px;
-            height:220px;
-            background-color:rgb(238, 178, 88);
-            margin:10px;
-        }
-        .box{
-            display:flex;
-            width:280px;
-            height:30px;
-            background-color: teal;
-            align-items:center;
+            /* background-color:blueviolet; */
+         }
+         .down{
+            display:flex; flex-wrap: wrap;
             justify-content: center;
-        }
-        content>.up>.cube>img{
-            width:280px;
-            height:180px;
-        }
-        content>.down>.cube>img{
-            width:280px;
-            height:180px;
-        }
-        /* @media (max-width:1217px){
-            .up>.P1>.cube{
+            /* background-color:blueviolet; */
+         }
+         .box{
+             flex:none;
+             margin:10px;
+             width:280px;
+             height:230px;
+             background-color:rgb(180, 145, 98);
+         }
+         img{
+             width:100%;
+             height:83%;
+         }
+         .cube{
+             /* background-color: chartreuse; */
+            height:20px;
+            text-align: center;
+            line-height: 38px;
+         }
+         @media (max-width:1200px){
+            .box{
                 width:45%;
+                height:60%;
             }
-            .down>.P2>.cube{
-                width:45%;
+            .cube{
+                height: 35px;
             }
-        } */
-        @media (max-width:1200px){
-            .up{
-                width:45%;
+         }
+         @media (max-width:600px){
+            .box{
+                width:90%;
             }
-            .down{
-                width:45%;
-            }
-        }
+         }
         @media(max-width:600px){
-            .up{
-                width:90%;
-            }
-            .down{
-                width:90%;
-            }
             nav>.item{
                 color:white;
             }
@@ -132,60 +111,58 @@
             <div class="inner">Welcome to Yan's Home</div>
         </div>
         <content>
-        <div class="up">
-            
-            <div class="cube">
-                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+            <div class="up">
                 <div class="box">
-                    <div class="title">Title3</div>
-                </div>
+                    <img src="view.jpg.jpg">
+                    <div class="cube">
+                        <div class="word">Title1</div>
+                    </div>
+                 </div>
+                 <div class="box">
+                    <img src="view.jpg.jpg">
+                    <div class="cube">
+                        <div class="word">Title2</div>
+                    </div>
+                 </div>
+                 <div class="box">
+                    <img src="view.jpg.jpg">
+                    <div class="cube">
+                        <div class="word">Title3</div>
+                    </div>
+                 </div>
+                 <div class="box">
+                    <img src="view.jpg.jpg">
+                    <div class="cube">
+                        <div class="word">Title4</div>
+                    </div>
+                 </div>
             </div>
-            <div class="cube">
-                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
+            <div class="down">
                 <div class="box">
-                    <div class="title">Title3</div>
-                </div>
+                    <img src="view.jpg.jpg">
+                    <div class="cube">
+                        <div class="word">Title5</div>
+                    </div>
+                 </div>
+                 <div class="box">
+                    <img src="view.jpg.jpg">
+                    <div class="cube">
+                        <div class="word">Title6</div>
+                    </div>
+                 </div>
+                 <div class="box">
+                    <img src="view.jpg.jpg">
+                    <div class="cube">
+                        <div class="word">Title7</div>
+                    </div>
+                 </div>
+                 <div class="box">
+                    <img src="view.jpg.jpg">
+                    <div class="cube">
+                        <div class="word">Title8</div>
+                    </div>
+                 </div>
             </div>
-            <div class="cube">
-                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
-                <div class="box">
-                    <div class="title">Title3</div>
-                </div>
-            </div>
-            <div class="cube">
-                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
-                <div class="box">
-                    <div class="title">Title4</div>
-                </div>
-            </div>
-            
-        </div>
-        <div class="down">
-            <div class="cube">
-                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
-                <div class="box">
-                    <div class="title">Title3</div>
-                </div>
-            </div>
-            <div class="cube">
-                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
-                <div class="box">
-                    <div class="title">Title3</div>
-                </div>
-            </div>
-            <div class="cube">
-                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
-                <div class="box">
-                    <div class="title">Title3</div>
-                </div>
-            </div>
-            <div class="cube">
-                <img src="https://bnextmedia.s3.hicloud.net.tw/image/album/2017-07/img-1499406574-95687.jpg">
-                <div class="box">
-                    <div class="title">Title4</div>
-                </div>
-            </div>
-        </div>
-        </content>
+       </content>
     </body>
 </html>
